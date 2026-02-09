@@ -1,0 +1,6 @@
+pyspark==3.1.2
+pymongo
+kagglehub
+psycopg2-binary
+great-expectations==0.18.19
+
