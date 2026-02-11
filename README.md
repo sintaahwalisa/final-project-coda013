@@ -161,7 +161,7 @@ Provide transparency and observability for data validation.
 
 ---
 
-## 🧰 Technology Stack
+## 7. Technology Stack
 
 | Layer          | Tools                      |
 |----------------|----------------------------|
@@ -174,13 +174,15 @@ Provide transparency and observability for data validation.
 
 ---
 
-## 🎯 Key Design Principles
+## 8. Key Design Principles
 
 - Clear separation between **raw** and **processed** layers  
 - Data quality as a **mandatory gate**, not just reporting  
 - Fail fast when invalid data is detected  
 - Maintain simple, readable transformations  
 - Designed for scalability (can migrate to Spark if required)
+
+  
 
 ## 📊 Data Analytics Project Overview
 
