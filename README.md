@@ -186,11 +186,11 @@ Provide transparency and observability for data validation.
 
 This project leverages **behavioral analytics** and **rule-based detection** to identify fraudulent credit card transaction patterns early, reducing financial losses and protecting legitimate transactions. By analyzing 1.29M+ transactions across 983 users, we uncover subtle fraud signals that traditional methods often miss.
 
-### 🎯 Business Objective
+### 1. Business Objective
 
 **Detect early fraud signals before financial losses escalate** by analyzing statistical interdependencies and behavioral anomalies within transactional ecosystems.
 
-### 🔑 Key Results
+### 2. Key Results
 
 | Metric | Value |
 |--------|-------|
@@ -203,13 +203,13 @@ This project leverages **behavioral analytics** and **rule-based detection** to 
 
 ---
 
-## 🧩 Problem Statement
+## 3. Problem Statement
 
-### The Challenge
+### 1. The Challenge
 
 Transaction data is inherently **complex and noisy**. Fraudulent signals are so subtle that they easily get lost, making early detection nearly impossible without systematic behavioral profiling.
 
-### Key Problems Identified
+### 2. Key Problems Identified
 
 1. **Unusual Spending Patterns**: Users exhibit transaction behaviors that deviate significantly from their historical norms
 2. **Merchant Anomalies**: Certain merchants show disproportionately high fraud rates
@@ -218,7 +218,7 @@ Transaction data is inherently **complex and noisy**. Fraudulent signals are so 
 
 ---
 
-## 📈 Data Analytics Approach
+## 4. Data Analytics Approach
 
 ### 1. Exploratory Data Analysis (EDA)
 
@@ -308,7 +308,7 @@ We conducted comprehensive EDA to answer five critical questions:
 
 ---
 
-## 🎯 Behavioral Fraud Signals
+## 5. Behavioral Fraud Signals
 
 Based on our analysis, we identified four key behavioral signals:
 
@@ -330,7 +330,7 @@ Based on our analysis, we identified four key behavioral signals:
 
 ---
 
-## 🔧 Rule-Based Fraud Detection Strategy
+## 6. Rule-Based Fraud Detection Strategy
 
 ### Approach
 
@@ -369,7 +369,7 @@ if user_age >= 61 and user_age <= 95:
 
 ---
 
-## 📊 Statistical Analysis Techniques
+## 7. Statistical Analysis Techniques
 
 ### 1. **Descriptive Statistics**
 - Mean, median, mode, standard deviation
@@ -393,7 +393,7 @@ if user_age >= 61 and user_age <= 95:
 
 ---
 
-## 🚀 Next Steps & Recommendations
+## 8. Next Steps & Recommendations
 
 ### ACCESS Framework
 **A**ssess → **C**lassify → **C**ombine → **E**valuate → **S**cale → **S**afeguard
@@ -475,7 +475,7 @@ features = [
 
 ---
 
-## 📐 Methodology Summary
+## 9. Methodology Summary
 
 ### Data Collection
 - **Source:** Kaggle credit card transactions dataset
@@ -499,7 +499,7 @@ features = [
 
 ---
 
-## 📚 Key Learnings
+## 10. Key Learnings
 
 ### 1. **Class Imbalance is Critical**
 - Fraud represents only 0.58% of transactions
@@ -530,35 +530,6 @@ features = [
 - [GitHub Repository](https://github.com/dhiasrenaldy01-ai/final-project-coda013)
 - [Interactive Dashboard](https://lookerstudio.google.com/...)
 
-### Code Structure
-```
-project/
-├── data/
-│   ├── raw/                    # Original dataset
-│   └── processed/              # Cleaned data
-├── notebooks/
-│   ├── 01_eda.ipynb           # Exploratory data analysis
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_rule_based_detection.ipynb
-├── src/
-│   ├── etl/
-│   │   ├── extract.py
-│   │   ├── transform.py
-│   │   ├── validate.py
-│   │   └── load.py
-│   ├── analysis/
-│   │   ├── fraud_patterns.py
-│   │   └── rule_based_detection.py
-│   └── utils/
-│       └── data_quality.py
-├── airflow/
-│   └── dags/
-│       └── fraud_detection_pipeline.py
-├── dashboards/
-│   └── looker_studio_config.json
-└── README.md
-```
-
 ---
 
 ## 🤝 Contributing
@@ -584,7 +555,7 @@ This project is for educational and portfolio purposes. Dataset source attributi
 
 - **Dataset:** Kaggle Credit Card Fraud Detection Dataset
 - **Tools:** Python (Pandas, PySpark), Apache Airflow, PostgreSQL (Neon), Great Expectations, Looker Studio
-- **Inspiration:** Real-world financial fraud detection challenges and sustainable development goals (SDG 8)
+- **Inspiration:** Financial fraud detection challenges and sustainable development goals (SDG 8)
 
 ---
 
