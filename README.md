@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Using Transaction Behavior Analysis
 
-## 🏗️ Data Engineering Workflow
+## Data Engineering Workflow
 
 This project implements an **end-to-end data engineering pipeline** that transforms raw transactional data into **analytics-ready tables**, with **data quality validation enforced before loading into the data warehouse**.
 
