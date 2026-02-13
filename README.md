@@ -184,7 +184,7 @@ Provide transparency and observability for data validation.
 
   
 
-## 📊 Data Analytics Project Overview
+## Data Analytics Project Overview
 
 This project leverages **behavioral analytics** and **rule-based detection** to identify fraudulent credit card transaction patterns early, reducing financial losses and protecting legitimate transactions. By analyzing 1.29M+ transactions across 983 users, we uncover subtle fraud signals that traditional methods often miss.
 
