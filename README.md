@@ -200,8 +200,8 @@ This project leverages **behavioral analytics** and **rule-based detection** to 
 | **Total Transaction Value** | $91.2 Million |
 | **Users Analyzed** | 983 |
 | **Fraud Rate** | 0.58% |
-| **Best Rule-Based Uplift** | 24.84% |
-| **Fraud Coverage** | ~51% (time-based) |
+| **Best Rule-Based Uplift** (age-based)| 24.84% |
+| **Fraud Coverage** | ~51% (time-based) ~next step |
 
 ---
 
